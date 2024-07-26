@@ -177,7 +177,7 @@ namespace AxesCore
         ///<summary>Returns the list of tokens(words) from a block</summary>\
         public List<string> Tokenize()
         {
-            List<string> tokens = new();
+            List<string> tokens = new List<string>();
 
             tokens.AddRange(line.Split(' '));  //Split the block using space as a delimitter
             tokens.RemoveAll(IsASpace); //Remove all the extra spaces from the code

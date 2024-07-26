@@ -1,6 +1,5 @@
 using System;
 using System.IO;
-using UnityEngine;
 
 namespace AxesCore
 {
@@ -42,11 +41,11 @@ namespace AxesCore
                 {
                     if (error != true)
                     {
-                        Debug.Log(log); sw.WriteLine("[Log]: " + log);
+                        //Debug.Log(log); sw.WriteLine("[Log]: " + log);
                     }
                     else
                     {
-                        Debug.LogError(log); sw.WriteLine("[Error]: " + log);
+                        //Debug.LogError(log); sw.WriteLine("[Error]: " + log);
                     }
 
                     sw.Close(); sw.Dispose();

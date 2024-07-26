@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using UnityEngine;
 
 namespace AxesCore
 {
@@ -131,9 +130,9 @@ namespace AxesCore
         /// <summary>Resets the coordinates in Core to zeroes</summary>
         public static void ResetCoord()
         {
-            Core.coord = new();
+            Core.coord = new Coord();
             Core.coordMode = CoordMode.nil;
-            Core.coordList = new();
+            Core.coordList = new List<string>();
         }
 
         public static void SetCoordMode(CoordMode mode)
@@ -164,7 +163,7 @@ namespace AxesCore
         /// <summary>Resets the scale of the simulator</summary>
         public static void Cancelscale()
         {
-            Core.scale = new(1, 1, 1);
+            Core.scale = new Vector3(1, 1, 1);
         }
 
         #region Group 12 Functions
@@ -366,7 +365,7 @@ namespace AxesCore
         /// <summary>Sets/Resets the parameters for the Core</summary>
         public static void Init()
         {
-            feedRate = AppManager.appSettings.defaultFeedrate;
+            //feedRate = AppManager.appSettings.defaultFeedrate;
 
             coord = new Coord();
             mode = CoreMode.normal; //The default state of the simulator
@@ -376,7 +375,7 @@ namespace AxesCore
             arcMode = PositionMode.arcAbsolute;
 
             group = new GMode[16]; //Create the Group 0 to Group 16
-            scale = new(1f, 1f, 1f); //Set the default scale
+            scale = new Vector3(1f, 1f, 1f); //Set the default scale
         }
     }
 }
