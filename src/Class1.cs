@@ -2,8 +2,5 @@
 
 namespace AxesCore
 {
-    public class Class1
-    {
 
-    }
 }
