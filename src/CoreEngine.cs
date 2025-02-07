@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace AxesCore
+namespace Axes
 {
     public class CoreEngine
     {

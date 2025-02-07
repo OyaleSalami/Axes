@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace AxesCore
+namespace Axes
 {
     public class AppSettings
     {

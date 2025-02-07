@@ -1,10 +1,15 @@
 using System;
 using System.Collections.Generic;
 
-namespace AxesCore
+namespace Axes
 {
-    public class Parser
+    class Parser
     {
+        public Parser(List<Token> tokens)
+        {
+
+        }
+
         /// <summary> Interprets the block and sets the correct parameters in the Core/Core Engine</summary>
         public static void InterpretTokens(List<string> tokens)
         {

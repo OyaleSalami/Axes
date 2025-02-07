@@ -1,11 +1,15 @@
 using System;
 using System.IO;
 
-namespace AxesCore
+namespace Axes
 {
     /// <summary>Handles error and log statements</summary>
     public class ErrorHandler
     {
+        public bool error;
+        public bool syntaxError;
+        public bool runtimeError;
+
         /// <summary>Where the log files would be stored</summary>
         private static string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/Axes Core/";
 
@@ -65,6 +69,16 @@ namespace AxesCore
         public static void Log(string log)
         {
             Log(log, false);
+        }
+
+        internal void PrintErrorList()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void Reset()
+        {
+            throw new NotImplementedException();
         }
     }
 }
