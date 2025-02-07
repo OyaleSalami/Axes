@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axes-Core", "Axes-Core.csproj", "{89219EB4-BC7F-44B5-9FEF-F34FC306E473}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axes", "Axes.csproj", "{16DF43D5-E45A-4AD5-8EBE-DCDC8A8E8AB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{89219EB4-BC7F-44B5-9FEF-F34FC306E473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89219EB4-BC7F-44B5-9FEF-F34FC306E473}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89219EB4-BC7F-44B5-9FEF-F34FC306E473}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89219EB4-BC7F-44B5-9FEF-F34FC306E473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16DF43D5-E45A-4AD5-8EBE-DCDC8A8E8AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16DF43D5-E45A-4AD5-8EBE-DCDC8A8E8AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16DF43D5-E45A-4AD5-8EBE-DCDC8A8E8AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16DF43D5-E45A-4AD5-8EBE-DCDC8A8E8AB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BA7F7E40-C01E-4429-A3E6-039B4C498339}
+		SolutionGuid = {6C1FF170-92E0-4A31-8BB6-73C2BDF5B97A}
 	EndGlobalSection
 EndGlobal

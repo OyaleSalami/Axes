@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -42,12 +41,14 @@ namespace AxesCore
             {
                 try
                 {
+                    /*
                     string temp = File.ReadAllText(filePath);
-                    var settings = JsonConvert.DeserializeObject<AppSettings>(temp);
+                    var settings = new Dictionary<String, int>(); //= JsonConvert.DeserializeObject<AppSettings>(temp);
 
                     speed = settings.speed;
                     defaultFeedrate = settings.defaultFeedrate;
                     maxFeedrate = settings.maxFeedrate;
+                    */
                 }
                 catch (Exception e)
                 {
@@ -90,7 +91,7 @@ namespace AxesCore
         /// <summary>Returns This Object As A Json String</summary>
         public string ToJson()
         {
-            return JsonConvert.SerializeObject(this);
+            return ""; //JsonConvert.SerializeObject(this);
         }
     }
 }
